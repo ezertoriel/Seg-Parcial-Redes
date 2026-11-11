@@ -2,7 +2,7 @@
 
 ## Link del Video
 
-
+https://youtu.be/oxwDMqbJW1U
 ## Propósito
 Tener servicio de SNMP en la red, un Router DHCP que este dando direcciones IP a los dispositivos, y un servicio Zabbix para monitorear los dispositivos (Router y Switch). Complementado con direccionamiento VLAN, y por Seguridad un Servidor Radius de NPS por Windows Server
 
