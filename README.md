@@ -62,6 +62,8 @@ En esta topología se implementó un Servidor Radius para autenticación del usu
 
 ## Switch Conectado al Usuario del AD
 <img width="819" height="667" alt="image" src="https://github.com/user-attachments/assets/83712639-7b21-4bd3-9d73-851ac005e669" />
+<img width="823" height="560" alt="image" src="https://github.com/user-attachments/assets/25aa34ae-9b63-4882-b981-1015e521cbcf" />
+
 
 
 
