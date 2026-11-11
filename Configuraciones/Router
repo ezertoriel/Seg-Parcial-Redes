@@ -11,6 +11,7 @@ ip ssh version 2
 crypto key generate rsa modulus 2048
 
 interface Gig0/0.10
+encapsulation dot1q 10
 ip address 10.8.63.1 255.255.255.0
 description Conexion a VLAn 10
 no shutdown
@@ -18,6 +19,7 @@ duplex full
 exit
 
 interface Gig0/0.20
+encapsulation dot1q 20
 ip address 10.8.64.1 255.255.255.0
 description Conexion a VLAN 20
 no shutdown
@@ -37,7 +39,7 @@ dns-server 8.8.8.8
 domain-name ezequiel.itla.edu.do
 exit
 
-ip dhcp excluded-address 10.8.64.1 10.8.63.10
+ip dhcp excluded-address 10.8.64.1 10.8.64.10
 ip dhcp pool VLAN-Usuarios
 default-router 10.8.64.1
 network 10.8.64.0 255.255.255.0
@@ -99,3 +101,4 @@ snmp-server location Zabbix
 end
 copy running-config startup-config
 write
+
