@@ -15,7 +15,6 @@ encapsulation dot1q 10
 ip address 10.8.63.1 255.255.255.0
 description Conexion a VLAn 10
 no shutdown
-duplex full
 exit
 
 interface Gig0/0.20
@@ -23,7 +22,6 @@ encapsulation dot1q 20
 ip address 10.8.64.1 255.255.255.0
 description Conexion a VLAN 20
 no shutdown
-duplex full
 exit
 
 interface Gig0/0
@@ -92,7 +90,7 @@ exit
 line vty 0 4
 transport input ssh
 login authentication ssh-auth
-authorization exe ssh-authz
+authorization exec ssh-authz
 exit
 
 snmp-server community public ro
