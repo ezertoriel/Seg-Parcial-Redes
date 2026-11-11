@@ -45,8 +45,12 @@ En esta topología se implementó un Servidor Radius para autenticación del usu
 
 ## Configure una comunidad SNMP de solo lectura en el router y demuestre que las lecturas
 <img width="1366" height="654" alt="image" src="https://github.com/user-attachments/assets/e40e2ca8-bb61-4156-93c3-9606eb49ea63" />
-## Muestra de Lectura del servidor Zabbix hacia el router
+
+---
+
+## Muestra de Lectura del servidor Zabbix hacia el router y no Escritura
 <img width="981" height="394" alt="image" src="https://github.com/user-attachments/assets/4982430d-e231-4dca-9670-d44c2593610d" />
+<img width="980" height="491" alt="image" src="https://github.com/user-attachments/assets/c188fee9-0869-4b1d-afdc-7e45157ff826" />
 
 
 ## Conexión SSH de Router a Switch
