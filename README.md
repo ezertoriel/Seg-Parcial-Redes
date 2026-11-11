@@ -6,7 +6,7 @@
 ## Propósito
 Tener servicio de SNMP en la red, un Router DHCP que este dando direcciones IP a los dispositivos, y un servicio Zabbix para monitorear los dispositivos (Router y Switch). Complementado con direccionamiento VLAN, y por Seguridad un Servidor Radius de NPS por Windows Server
 
-##descripción de lo implementado
+## Descripción de lo Implementado
 En esta topología se implementó un Servidor Radius para autenticación del usuario del Switch, un Servidor Zabbix con SMB con conexión de solo lectura en el Router, también implemente SSH entre el switch y el Router, y por último hubo un Router DHCP con Router-on-Stick y dos vlan la VLAN10 de servidores y VLAN20 de Usuarios. 
 
 ## Diagrama Lógico
