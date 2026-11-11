@@ -56,9 +56,8 @@ aaa authentication login consola-auth group NPS-G local
 aaa authentication login ssh-auth local
 aaa authorization exec consola-authz group NPS-G local
 aaa authorization exec ssh-authz local
-aaa accounting exec default start-stop group NPS-G
-aaa accounting system default start-stop group NPS-G
-aaa authorization console 
+
+
 
 privilege exec level 1 show
 privilege exec level 1 show ip
