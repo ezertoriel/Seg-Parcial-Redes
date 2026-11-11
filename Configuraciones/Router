@@ -55,42 +55,21 @@ aaa group server radius NPS-G
 server name Ezequiel0863
 exit
 
-aaa authentication login consola-auth group NPS-G local
-aaa authentication login ssh-auth local
-aaa authorization exec consola-authz group NPS-G local
-aaa authorization exec ssh-authz local
-aaa accounting exec default start-stop group NPS-G
-aaa accounting system default start-stop group NPS-G
-aaa authorization console 
-
-privilege exec level 1 show
-privilege exec level 1 show ip
-privilege exec level 10 show running-config
-privilege exec level 10 configure terminal
-privilege exec level 10 ping
+aaa authentication login default local
+aaa authorization exec login default local
 
 
-login on-success log
-login on-failure log 
-logging buffered 64000 informational
-logging on 
-service timestamps log datetime msec
 
 line console 0
-login authentication consola-auth
-authorization exec consola-authz
+login authentication default
 logging synchronous
 exit
 
-line aux 0
-login authentication consola-auth
-authorization exec consola-authz
-exit
+
 
 line vty 0 4
 transport input ssh
-login authentication ssh-auth
-authorization exec ssh-authz
+login authentication default
 exit
 
 snmp-server community public ro
@@ -99,5 +78,6 @@ snmp-server location Zabbix
 end
 copy running-config startup-config
 write
+
 
 
