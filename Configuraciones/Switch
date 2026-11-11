@@ -25,11 +25,6 @@ description Administracion
 no shutdown
 exit
 
-interface vlan 10
-ip address 10.8.64.5 255.255.255.0
-description Administracion
-no shutdown
-exit
 
 interface range gig0/1-2
 switchport mode access
@@ -92,13 +87,13 @@ exit
 line vty 0 4
 transport input ssh
 login authentication ssh-auth
-authorization exe ssh-authz
+authorization exec ssh-authz
 exit
 
 line vty 0 15
 transport input ssh
 login authentication ssh-auth
-authorization exe ssh-authz
+authorization exec ssh-authz
 exit
 
 snmp-server community public ro
