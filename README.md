@@ -30,7 +30,7 @@ Tener servicio de SNMP en la red, un Router DHCP que este dando direcciones IP a
 
 ---
 
-## Direccionamiento IP
+## Direccionamiento IP (basado en los ultimos digitos de mi matricula 0863)
 | Red | Equipo/Puerto | IP |
 | :--- | :---: | ---: |
 | VLAN10 | Router GIG0/0.10 | 10.8.63.1 |
