@@ -52,6 +52,12 @@ Tener servicio de SNMP en la red, un Router DHCP que este dando direcciones IP a
 ## Conexión SSH de Switch a Router
 <img width="803" height="393" alt="image" src="https://github.com/user-attachments/assets/ee46141c-9189-4bcc-b9f8-60f702decdca" />
 
+## Router-on-Stick y DHCP
+<img width="751" height="485" alt="image" src="https://github.com/user-attachments/assets/c5e4ea88-ec67-40a7-a35b-23581afc8d1b" />
 
+## Switch Conectado al NPS
+<img width="805" height="543" alt="image" src="https://github.com/user-attachments/assets/2e664100-95b8-4fbd-b8a0-4c10f8966ce3" />
+
+<img width="811" height="625" alt="image" src="https://github.com/user-attachments/assets/77ac9518-72dc-46d0-9908-872e000470e5" />
 
 
