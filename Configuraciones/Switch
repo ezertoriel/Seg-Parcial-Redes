@@ -79,11 +79,6 @@ authorization exec consola-authz
 logging synchronous
 exit
 
-line aux 0
-login authentication consola-auth
-authorization exec consola-authz
-exit
-
 line vty 0 4
 transport input ssh
 login authentication ssh-auth
